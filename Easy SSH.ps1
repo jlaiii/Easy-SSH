@@ -11,6 +11,7 @@ $user= Read-Host "Username"
 clear
 write-host " "
 .\ssh $user@$ip -p $port
+write-host " "
 pause
 	
 	}
