@@ -1,3 +1,6 @@
+# This will install SSH.
+Add-WindowsCapability -Online -Name OpenSSH.Client~~~~0.0.1.0
+
 # This script will SSH into a server.
 
 $username = Read-Host "Enter username"
