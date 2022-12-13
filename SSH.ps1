@@ -15,3 +15,4 @@ $port = Read-Host "Enter port number"
 clear
 Write-Host "Connecting to $server on port $port..."
 ssh -l $username $server -p $port
+. $PSCommandPath
